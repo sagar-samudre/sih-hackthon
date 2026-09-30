@@ -21,7 +21,7 @@ import { agriculturalMLModel } from './src/ml/agriculturalModel.ts';
 
 dotenv.config();
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // In-memory persistent data store during server lifecycle
 let users: User[] = [...INITIAL_USERS];
