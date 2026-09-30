@@ -1,0 +1,8 @@
+{
+  "name": "SetiMitra - शेतीमित्र | Direct Agricultural Marketplace & ML Tracking",
+  "description": "Direct farmer-to-buyer agricultural marketplace with live APMC mandi rates, trained ML crop price and demand prediction model, Google Maps order tracking, and full trilingual Marathi, Hindi, and English support.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+
